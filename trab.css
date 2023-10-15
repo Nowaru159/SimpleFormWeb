@@ -1,0 +1,12 @@
+.hidden {
+    display: none;
+  }
+  
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align:left;
+
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+}

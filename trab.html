@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="trab.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <form id="NPCSheet">
+    <label for="name">Nome: </label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="role">Classe: </label>
+    <input type="text" id="role" name="role"><br><br>
+    <button type="button" onclick="CreateChar()">Criar Char</button>
+  </form>
+
+  <div id="success" class="hidden">Personagem criado com sucesso. 	\(^ヮ^)/</div>
+  <div id="error" class="hidden">Por favor, preencha todos os campos para criar o personagem. 	ヽ(`⌒´メ)ノ</div>
+
+   <table id="charTable" class="hidden">
+    <tr>
+      <th>Nome</th>
+      <th>Classe</th>
+    </tr>
+  </table>
+
+  <script src="trab.js"></script>
+</body>
+</html>
